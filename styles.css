@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 65px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.posts {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    text-align: center;
+
+
+}
+
+img {
+    width: 130px;
+    border: 3px groove white;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    text-align: center;
+}
+
+
+.likes {
+    border: 5px white solid;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+
+}
+
+.liked-photo {
+    position: relative;
+}
+
+body {
+    background-color: red;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.comments{display: flex;justify-content: center;}
+.commentDisplay{text-align:center;}
